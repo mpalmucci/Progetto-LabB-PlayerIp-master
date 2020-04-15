@@ -44,6 +44,7 @@ public class MatchManager {
         boolean response = false;
         try{
             response = sqlDriver.executeBooleanQuery(query);
+
         } catch(Exception e){
             e.printStackTrace();
         }
