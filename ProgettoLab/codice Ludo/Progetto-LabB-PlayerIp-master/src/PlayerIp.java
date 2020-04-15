@@ -193,6 +193,7 @@ public class PlayerIp {
             System.out.println(listaPartite);
         }catch(Exception e){
             e.printStackTrace();
+
         }
     }
 
